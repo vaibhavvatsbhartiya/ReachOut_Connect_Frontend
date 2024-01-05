@@ -24,7 +24,7 @@ const SignupForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(' http://localhost:3000/users/signup', formData);
+      const response = await axios.post(' https://roc-backend.onrender.com/users/signup', formData);
       console.log(response.data);
       alert(response.data.message)
       navigate("/login")
