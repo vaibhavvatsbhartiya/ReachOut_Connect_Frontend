@@ -1,7 +1,7 @@
 # ReachOut Connect
 
 
-## This folder contains all the code related to backend
+## This folder contains all the code related to frontend 
 
 
 **folder stracture**
